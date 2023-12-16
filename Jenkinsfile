@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Your Docker build command
-                    sh 'docker build -t prasanthk8/hey-python-flask:0.0.1.RELEASE .'
+                    sh 'docker build -tmeghanakusuma/hey-python-flask:0.0.1.RELEASE .'
                 }
             }
         }
